@@ -403,6 +403,9 @@ footer #rodape .redes-sociais a:hover i {
     #servicos {
         padding: 0;
     }
+    .parallax-window2 {
+        min-height: 705px;
+    }
 }
 @media (min-width: 768px) and (max-width: 881px) {
     .nav ul>li>a {
