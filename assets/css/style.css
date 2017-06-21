@@ -199,7 +199,7 @@ header {
 #links .icon {
     width: 10px;
     height: 10px;
-    background: #ef9d37;
+    background: #fcd802;
     position: absolute;
 }
 #links ul>li {
@@ -322,7 +322,7 @@ footer #rodape {
     width: 100%;
     min-height: 80px;
     background: #000;
-    border-top: 1px solid #ef9d37;
+    border-top: 1px solid #fcd802;
 }
 footer #rodape address {
     margin-bottom: 0;
@@ -336,7 +336,7 @@ footer #rodape address span {
     align-items: center;
 }
 footer #rodape address span i {
-    color: #ef9d37;
+    color: #fcd802;
     margin-right: 5px;
 }
 footer #rodape .redes-sociais {
@@ -351,14 +351,14 @@ footer #rodape .redes-sociais i {
     color: #fff;
 }
 footer #rodape .redes-sociais a:hover i {
-    color: #ef9d37;
+    color: #fcd802;
 }
 
 
 @media (max-width: 767px) {
     .navbar-default .navbar-collapse,
     .navbar-default .navbar-form {
-        border-color: #ef9d37;
+        border-color: #fcd802;
         background: #000;
         height: 360px;
         text-align: center;
