@@ -26,7 +26,7 @@ body {
 
 /* --- GERAL --- */
 .tit-geral {
-    font-size: 42px;
+    font-size: 32px;
     font-weight: 800;
     color: #000;
     text-transform: uppercase;
@@ -79,7 +79,7 @@ header {
     align-items: center;
 }
 .nav ul>li>a {
-    font-size: 16px;
+    font-size: 14px;
     color: #fcd802!important;
     font-weight: 600;
     text-transform: uppercase;
@@ -129,6 +129,22 @@ header {
         font-size: 18px;
         color: #fff;
     } */
+
+.flip-clock-divider .flip-clock-label {
+    color: #fff;
+}
+
+#nivelamento {
+    padding: 150px 0;
+    background: #000;
+}
+#nivelamento .tit-geral,
+#nivelamento p {
+    color: #fff!important;
+}
+.nive {
+    width: 100%;
+}
 
 
 /* --- VT --- */
@@ -204,6 +220,14 @@ header {
 }
 #links ul>li {
     margin-bottom: 20px;
+}
+
+p.destaque {
+    font-size: 25px;
+    color: red;
+    margin-top: -25px;
+    margin-bottom: 30px;
+    font-weight: bold;
 }
 
 
