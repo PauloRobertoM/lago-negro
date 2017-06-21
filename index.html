@@ -138,6 +138,8 @@
             <h1 class="sub-geral">1 - Dados pessoais</h1>
             <form action="https://formspree.io/paulo1rm23@gmail.com" method="POST">
                <div class="row">
+                  <input type="hidden" name="_subject" value="Missao Lago Negro" />
+
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                      <input type="text" name="Nome" value="" placeholder="NOME COMPLETO" aria-required="true" />
                   </div><!-- .md-6 -->
@@ -145,10 +147,10 @@
                      <input type="email" name="E-mail" value="" placeholder="E-MAIL" aria-required="true" />
                   </div><!-- .md-6 -->
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                     <input type="tel" name="Telefone" value="" placeholder="DATA DE NASCIMENTO" />
+                     <input type="text" name="Data de Nascimento" value="" placeholder="DATA DE NASCIMENTO" aria-required="true" />
                   </div><!-- .md-6 -->
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                     <input type="text" name="Assunto" value="" placeholder="TELEFONE DE CONTATO" aria-required="true" />
+                     <input type="text" name="TELEFONE" value="" placeholder="TELEFONE DE CONTATO" aria-required="true" />
                   </div><!-- .md-6 -->
                </div><!-- .row -->
 
@@ -156,7 +158,7 @@
                <div class="row">
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                      <label>EQUIPE</label><br />
-                     <select name="Duração:" required>
+                     <select name="Equipe:" required>
                         <option value="101FAAT">101FAAT</option>
                         <option value="MGTAP">MGTAP</option>
                         <option value="FORÇA DELTA">FORÇA DELTA</option>
@@ -171,11 +173,11 @@
                      </select>
                   </div><!-- .md-6 -->
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                     <input type="email" name="E-mail" value="" placeholder="A quanto tempo pratica airsoft?" aria-required="true" />
+                     <input type="text" name="Qaunto tempo" value="" placeholder="A quanto tempo pratica airsoft?" aria-required="true" />
                   </div><!-- .md-6 -->
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                      <label>Qual seu estilo de jogo?</label><br />
-                     <select name="Duração:">
+                     <select name="Estilo:">
                         <option value="Assalto">Assalto</option>
                         <option value="Suporte">Suporte</option>
                         <option value="Sniper">Sniper</option>
@@ -183,38 +185,38 @@
                      </select>
                   </div><!-- .md-6 -->
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                     <input type="email" name="E-mail" value="" placeholder="Quantos FPS tem a sua arma principal?" aria-required="true" />
+                     <input type="text" name="FPS" value="" placeholder="Quantos FPS tem a sua arma principal?" aria-required="true" />
                   </div><!-- .md-6 -->
                </div><!-- .row -->
 
                <h1 class="sub-geral">3 - Informações Médicas</h1>
                <div class="row">
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                     <textarea name="Mensagem" placeholder="Possui alergias? Se sim descreva quais"></textarea>
+                     <textarea name="Alergia" placeholder="Possui alergias? Se sim descreva quais"></textarea>
                   </div><!-- .md-6 -->
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                     <textarea name="Mensagem" placeholder="Contato para emergências"></textarea>
+                     <textarea name="Emergencia" placeholder="Contato para emergências"></textarea>
                   </div><!-- .md-6 -->
 
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                     <textarea name="Mensagem" placeholder="Possui algum tipo de doença ou condição médica?"></textarea>
+                     <textarea name="Doença" placeholder="Possui algum tipo de doença ou condição médica?"></textarea>
                   </div><!-- .md-6 -->
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                     <textarea name="Mensagem" placeholder="Você toma algum tipo de medicação?"></textarea>
+                     <textarea name="Medicaçåo" placeholder="Você toma algum tipo de medicação?"></textarea>
                   </div><!-- .md-6 -->
 
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                      <div id="termo">
                         <label>Termo de Responsabilidade</label><br />
                         <p>Declaro informações preenchidas são reais, que li e aceito as regras da operação impostas pela organização e que não tenho nenhum impedimento para praticar Airsoft nesse evento.</p>
-                        <input type="checkbox" name="Precisa de Roteiro?" value="Concordo"> <span>CONCORDO</span>
+                        <input type="checkbox" name="Termo de Responsabilidade" value="Concordo"> <span>CONCORDO</span>
                      </div><!-- #termo -->
                   </div><!-- .md-6 -->
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                      <div id="termo">
                         <label>Direito de Imagens</label><br />
                         <p>Cedo meu direito de imagem a organização da 101 FAAT, dessa forma fotos e videos com minha pessoa poderão circular livremente em qualquer mídia que a organização do evento necessite publicar.</p>
-                        <input type="checkbox" name="Precisa de Roteiro?" value="Concordo"> <span>CONCORDO</span>
+                        <input type="checkbox" name="Direito de Imagens" value="Concordo"> <span>CONCORDO</span>
                      </div><!-- #termo -->
                   </div><!-- .md-6 -->
                </div><!-- .row -->
